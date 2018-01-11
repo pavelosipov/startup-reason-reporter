@@ -26,7 +26,7 @@ The Startup Reason Reporter provides developers the the reason that an iOS appli
   s.source           = { :git => 'https://github.com/uber/startup-reason-reporter.git', :tag => s.version.to_s }
   s.author           = "Uber"
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.subspec 'Core' do |core|
     core.source_files = 'StartupReasonReporter/StartupReasonReporter/*'
